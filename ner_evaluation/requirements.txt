@@ -3,3 +3,4 @@ git+https://github.com/kmkurn/pytorch-crf.git@4cd79bc8af55fb0f34a2a39b2e38f0e71c
 seqeval==0.0.12
 jsonlines==1.2.0
 scikit-learn==0.21.2
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
